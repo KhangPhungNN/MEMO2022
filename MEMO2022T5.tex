@@ -1,0 +1,34 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage[left=1.5cm, right=1.5cm, top=1cm, bottom=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{nameref}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{enumitem}
+\begin{document}
+\setlength{\parindent}{0pt}
+	
+\textbf{MEMO 2022 Team Competition: Problem 5.} \\
+
+Let $\omega$ be the circumcircle of a triangle $ABC$ with $\angle CAB=90^{\circ}$. The medians through $B$ and $C$ meet $\omega$ again at $D$ and $E$, respectively. The tangent to $\omega$ at $D$ intersects the line $AC$ at $X$ and the tangent to $\omega$ at $E$ intersects the line $AB$ at $Y$. Prove that the line $XY$ is tangent to $\omega$.\\
+
+\textbf{Việt hoá:} Cho tam giác $ABC$ nội tiếp đường tròn $(O)$ đường kính $BC$. Trung tuyến từ $B$ và $C$ cắt đường tròn $(O)$ lần lượt tại 2 điểm $D$ và $E$. Tiếp chuyến của $(O)$ tại $D$ cắt $AC$ tại $X$, tiếp tuyến tại $E$ của $(O)$ cắt $AB$ tại $Y$. Chứng minh $XY$ tiếp xúc với đường tròn $(O)$.\\
+
+\textbf{\underline{Solution 1.}}
+
+Lấy điểm $G$ là đối xứng của $A$ qua $O$, đặt $M$ là trung điểm $BC$. Tiếp tuyến tại $G$ và $D$ của $(O)$ cắt nhau tại $X'$.\\
+
+Ta có: $\angle GOX'=\dfrac{1}{2}\angle GOD=\angle GBD=\angle AMB\quad(AC\parallel BC)$. Từ đây suy ra $\triangle GOX'\sim\triangle AMB$. \\
+
+Mặt khác lần lượt có $O$ và $M$ là trung điểm $AG$ và $AC$. Suy ra $\triangle GAX'\sim\triangle ACB\newline\Rightarrow\angle GAX'=\angle ACB=\angle GAC$. Ta có ngay $X'\equiv X$.\\
+
+Ta định nghĩa $Y'$ và chứng minh $Y'\equiv Y$ tương tự. Hoàn tất chứng minh.\bigskip\\
+
+\textbf{\underline{Solution 2.}}
+
+Kẻ $AG$ là đường kính của $(O)$.
+\end{document}
